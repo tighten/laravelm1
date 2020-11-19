@@ -88,9 +88,10 @@
     padding-bottom: 1em;
 }
 .live-blog li span {
-    color: #555;
+    color: #777;
     display: block;
     font-size: 0.75em;
+    font-weight: bold;
     text-transform: uppercase;
 }
 </style>
