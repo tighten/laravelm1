@@ -26,12 +26,18 @@
 
     <h2>Laravel-ancillary command-line tools</h2>
     <ul>
-        <li>@include('_partials.dunno')Composer</li>
+        <li>@include('_partials.yay')Composer</li>
         <li>@include('_partials.dunno')Homebrew</li>
         <li>@include('_partials.dunno')npm</li>
         <li>@include('_partials.dunno')nvm</li>
         <li>@include('_partials.dunno')Lambo</li>
         <li>@include('_partials.yay')oh-my-zsh</li>
+    </ul>
+
+    <h2>Laravel internal tools</h2>
+    <ul>
+        <li>@include('_partials.yay')Artisan</li>
+        <li>@include('_partials.yay')Tinker</li>
     </ul>
 
     <h2>Laravel development environments</h2>
@@ -68,7 +74,11 @@
         <li>Install oh-my-zsh again</li>
         <li>`sudo mkdir /usr/local/bin && chmod 775 /usr/local/bin` and hope that's not the wrong thing to do
         <li>Install composer and move to /usr/local/bin and wonder why i have to sudo it (`sudo mv composer.phar /usr/local/bin/composer`)</li>
-
+        <li>Install the Laravel installer (`composer global update laravel/installer`)</li>
+        <li>Use the installer (`mkdir ~/Sites && cd ~/Sites && laravel new m1suckazzzzzz`)</li>
+        <li>Womp, no find Laravel, fix our Path. edit `~/.zshrc`, and add this line up top: `export PATH="$PATH:$HOME/.composer/vendor/bin"`</li>
+        <li>Use the installer (`mkdir ~/Sites && cd ~/Sites && laravel new m1suckazzzzzz`)</li>
+        <li>(Have to run, will keep updating this later -- MES 2020-11-18 10:40pm Eastern)
     </ul>
 
 </section>
