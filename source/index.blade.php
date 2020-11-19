@@ -87,6 +87,9 @@
     margin-bottom: 1em;
     padding-bottom: 1em;
 }
+.live-blog li span {
+    display: block;
+}
 </style>
     <h2>Testing on a brand new machine, having taken these steps:</h2>
     <ul class="live-blog">
