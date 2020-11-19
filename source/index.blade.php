@@ -106,6 +106,15 @@
         <li>No errors on the installer!! Let's gooooooo</li>
         <li>Installed the latest macOS update which took several hours.</li>
         <li>Tried to use `git` and got this error: `xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun`... let's get to googling. Google says the gool 'ol `xcode-select --install`, which I could've swore I already did? But let's do it again.</li>
+        <li>Hooray! Git works again! Now on to Homebrew; gonna run `brew update` but I have to remember to prefix it: `arch -x86_64 brew` which is a pita so I'm gonna build a passthrough command `arm` that shortcuts that same thing.</li>
+        <li>Gonna add this to my `.zshrc` and see how it treats me for creating basically an ARM repl... <br>
+            <code>
+            arm () {
+    while read -ra c; do
+        "$@" "${c[@]}"
+    done
+    </code>
+}
     </ul>
 
 </section>
