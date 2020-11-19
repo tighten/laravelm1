@@ -92,6 +92,7 @@
     display: block;
     font-size: 0.75em;
     font-weight: bold;
+    text-align: right;
     text-transform: uppercase;
 }
 </style>
