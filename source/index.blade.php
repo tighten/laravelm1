@@ -14,6 +14,8 @@
             </div> --}}
 
             <p class="text-lg">Green is yes; red is no; grey hasn't been tested yet.</p>
+            <p>Source here, in case you want to make PRs: <a href="https://github.com/tighten/laravelm1">github.com/tighten/laravelm1</a></p>
+            <p>Another resource here: https://roaringapps.com/collections/list-of-apple-silicon-native-apps</p>
         </div>
     </div>
 
@@ -26,18 +28,21 @@
 
     <h2>Laravel-ancillary command-line tools</h2>
     <ul>
+        <li>@include('_partials.yay')Vim</li>
         <li>@include('_partials.yay')Composer</li>
         <li>@include('_partials.dunno')Homebrew</li>
         <li>@include('_partials.dunno')npm</li>
         <li>@include('_partials.dunno')nvm</li>
         <li>@include('_partials.yay')Lambo</li>
         <li>@include('_partials.yay')oh-my-zsh</li>
+        <li>@include('_partials.dunno')Redis</li>
     </ul>
 
     <h2>Laravel internal tools</h2>
     <ul>
         <li>@include('_partials.yay')Artisan</li>
         <li>@include('_partials.yay')Tinker</li>
+        <li>@include('_partials.dunno')Horizon</li>
     </ul>
 
     <h2>Laravel development environments</h2>
@@ -48,6 +53,7 @@
 
     <h2>Docker-based tools</h2>
     <ul>
+        <li>@include('_partials.dunno')Docker</li>
         <li>@include('_partials.dunno')Vessel</li>
         <li>@include('_partials.dunno')Takeout</li>
     </ul>
@@ -65,6 +71,12 @@
         <li>@include('_partials.dunno')Discord</li>
         <li>@include('_partials.dunno')Trello</li>
         <li>@include('_partials.dunno')Rocket</li>
+        <li>@include('_partials.dunno')Parallels</li>
+        <li>@include('_partials.dunno')Rogue Amoeba tools</li>
+        <li>@include('_partials.dunno')Adobe Audition</li>
+        <li>@include('_partials.dunno')Screenflow</li>
+        <li>@include('_partials.dunno')OBS</li>
+        <li>@include('_partials.dunno')Invoker</li>
     </ul>
 
     <h2>Testing on a brand new machine, having taken these steps:</h2>
@@ -87,6 +99,8 @@
         <li>A few errors... `get_owner:1: command not found: stat -f` happened twice. Hit the "Press RETURN to continue or " text.. hit return a few times, tried other keys, nothing's working. Gonna let it just run overnight I guess. 12:28am</li>
         <li>`composer require tightenco/lambo && cd ~/Sites && lambo mynewsite` .. works great ✓</li>
         <li>Tried to run the Brew installer. Hangs on "Press RETURN" again. 🤷‍♂️ Really to bed this time. 12:36am</li>
+        <li>Woke up to Jess Archer giving my sleep-addled brain the answer on my sudo permissions issue above, which was: you didn't chown /usr/local/bin, dummy!</li>
+
     </ul>
 
 </section>
