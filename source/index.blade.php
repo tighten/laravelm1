@@ -94,7 +94,7 @@
     font-size: 0.75em;
     font-weight: bold;
     line-height: 1.3;
-    margin-left: -7em;
+    margin-left: -9em;
     text-align: right;
     text-transform: uppercase;
     position: absolute;
