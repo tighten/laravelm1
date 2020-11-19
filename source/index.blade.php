@@ -70,7 +70,7 @@
     <h2>Testing on a brand new machine, having taken these steps:</h2>
     <ul class="list-disc">
         <li>Download iTerm</li>
-        <li>Install oh-my-zsh, which prompoted installing the command line developer tools</li>
+        <li>Install oh-my-zsh, which prompted installing the command line developer tools</li>
         <li>Install oh-my-zsh again</li>
         <li>`sudo mkdir /usr/local/bin && chmod 775 /usr/local/bin` and hope that's not the wrong thing to do
         <li>Install composer and move to /usr/local/bin and wonder why i have to sudo it (`sudo mv composer.phar /usr/local/bin/composer`)</li>
