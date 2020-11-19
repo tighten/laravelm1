@@ -119,6 +119,17 @@
         <li>OK, let's try it the old way. `arch -x86_64 bash update`</li>
         <li>UGHHH shoot me... back to good old `arch: posix_spawnp: brew: bad CPU type in executable`. WTF?! `/usr/sbin/softwareupdate --install-rosetta --agree-to-license` again I guess?</li>
         <li>HEYYY it's doing something...</li>
+        <li>`arch -x86_64 brew install php`</li>
+        <li>
+            <code>Warning: You are using macOS 11.0.
+We do not provide support for this released but not yet supported version.
+You will encounter build failures with some formulae.
+Please create pull requests instead of asking for help on Homebrew's GitHub,
+Twitter or any other official channels. You are responsible for resolving
+any issues you experience while you are running this
+released but not yet supported version.
+</code>
+</li>
     </ul>
 
 </section>
