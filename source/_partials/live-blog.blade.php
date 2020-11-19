@@ -57,9 +57,9 @@
     </code>.. womp that didn't work oh well</li>
         <li>Huh. in my zshrc I see this flag commented out: `export ARCHFLAGS="-arch x86_64"`.. think i'm gonna uncomment that.</li>
         <li>OK, let's try it the old way. `arch -x86_64 bash update`</li>
-        <li>UGHHH shoot me... back to good old `arch: posix_spawnp: brew: bad CPU type in executable`. WTF?! `/usr/sbin/softwareupdate --install-rosetta --agree-to-license` again I guess?</li>
+        <li>UGHHH shoot me... back to good old `arch: posix_spawnp: brew: bad CPU type in executable`. WTF?! <code>/usr/sbin/softwareupdate --install-rosetta --agree-to-license</code> again I guess?</li>
         <li>HEYYY it's doing something...</li>
-        <li>`arch -x86_64 brew install php`</li>
+        <li><code>arch -x86_64 brew install php</code></li>
         <li>
             <code>Warning: You are using macOS 11.0.
 We do not provide support for this released but not yet supported version.
@@ -71,7 +71,7 @@ released but not yet supported version.
 </code>
 </li>
         <li>PHP installed!</li>
-        <li>`brew services start php` worked!</li>
+        <li><code>brew services start php</code> worked!</li>
         <li><span>Thursday 1:30pm</span>Meetings.. back later</li>
         <li><span>Thursday 5:19pm</span> OK, let's go. I read the output of this blogging format and I hate it so I'm gonna fix it quickly before I get back to M1.</li>
         <li><span>Thursday 5:44PM</span>OK, spent literally 30 minutes tweaking the blog. Let's get to Valet. <code>composer global require laravel/valet</code></li>
