@@ -30,7 +30,7 @@
     <ul>
         <li>@include('_partials.yay')Vim</li>
         <li>@include('_partials.yay')Composer</li>
-        <li>@include('_partials.dunno')Homebrew</li>
+        <li>@include('_partials.yay')Homebrew</li>
         <li>@include('_partials.dunno')npm</li>
         <li>@include('_partials.dunno')nvm</li>
         <li>@include('_partials.yay')Lambo</li>
@@ -47,7 +47,7 @@
 
     <h2>Laravel development environments</h2>
     <ul>
-        <li>@include('_partials.dunno')Laravel Valet</li>
+        <li>@include('_partials.yay')Laravel Valet</li>
         <li>@include('_partials.dunno')Laravel Homestead</li>
     </ul>
 
@@ -63,12 +63,12 @@
         <li>@include('_partials.yay')iTerm</li>
         <li>@include('_partials.yay')Tinkerwell</li>
         <li>@include('_partials.dunno')Sublime Text</li>
-        <li>@include('_partials.dunno')VS Code</li>
+        <li>@include('_partials.yay')VS Code</li>
         <li>@include('_partials.dunno')PHPStorm</li>
-        <li>@include('_partials.dunno')TablePlus</li>
+        <li>@include('_partials.yay')TablePlus</li>
         <li>@include('_partials.dunno')GitHub Desktop</li>
         <li>@include('_partials.dunno')Slack</li>
-        <li>@include('_partials.dunno')Discord</li>
+        <li>@include('_partials.yay')Discord</li>
         <li>@include('_partials.dunno')Trello</li>
         <li>@include('_partials.dunno')Rocket</li>
         <li>@include('_partials.dunno')Parallels</li>
