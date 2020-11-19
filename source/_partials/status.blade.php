@@ -92,7 +92,7 @@ $categories = [
 @foreach ($categories as $name => $tools)
     <ul>
     @foreach ($tools as $toolName => $partial)
-    <li>@include('_partials' . $partial){{ $toolName }}</li>
+    <li>@include('_partials.' . $partial){{ $toolName }}</li>
     @endforeach
     </ul>
 @endforeach
