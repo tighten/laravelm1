@@ -93,8 +93,6 @@ $categories = [
 ];
 @endphp
 
-a
-
 @foreach ($categories as $name => $tools)
     <h2>{{ $name }}</h2>
     <ul>
