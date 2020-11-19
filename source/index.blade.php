@@ -84,6 +84,7 @@
 .live-blog li {
     border-bottom: 1px solid #ddd;
     display: block;
+    margin-left: 8em;
     margin-bottom: 1em;
     padding-bottom: 1em;
 }
@@ -92,8 +93,9 @@
     display: block;
     font-size: 0.75em;
     font-weight: bold;
-    text-align: right;
+    left: -6em;
     text-transform: uppercase;
+    width: 5em;
 }
 </style>
     <h2>Testing on a brand new machine, having taken these steps:</h2>
