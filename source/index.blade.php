@@ -93,8 +93,8 @@
     display: block;
     font-size: 0.75em;
     font-weight: bold;
-    line-height: 1.2;
-    margin-left: -8em;
+    line-height: 1.3;
+    margin-left: -7em;
     text-align: right;
     text-transform: uppercase;
     position: absolute;
