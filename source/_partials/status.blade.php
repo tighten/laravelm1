@@ -1,30 +1,30 @@
 @php
 $categories = [
     'Laravel Command-line tools' => [
-        'Laravel Installer' => 'yay',
+        'Laravel Installer' => 'yes',
     ],
     'Laravel-ancillary command-line tools' => [
-        'PHP' => 'yay',
-        'Vim' => 'yay',
-        'Composer' => 'yay',
+        'PHP' => 'yes',
+        'Vim' => 'yes',
+        'Composer' => 'yes',
         'Homebrew' => [
             'link' => 'https://soffes.blog/homebrew-on-apple-silicon',
-            'status' => 'yay',
+            'status' => 'yes',
         ],
         'npm' => 'dunno',
         'nvm' => 'dunno',
-        'Lambo' => 'yay',
-        'oh-my-zsh' => 'yay',
+        'Lambo' => 'yes',
+        'oh-my-zsh' => 'yes',
         'Redis' => 'dunno',
     ],
     'Laravel development environments' => [
-        'Laravel Valet' => 'yay',
+        'Laravel Valet' => 'yes',
         'Laravel Valet Share' => 'boo',
         'Laravel Homestead' => 'dunno',
     ],
     'Laravel internal tools' => [
-        'Artisan' => 'yay',
-        'Tinker' => 'yay',
+        'Artisan' => 'yes',
+        'Tinker' => 'yes',
         'Horizon' => 'dunno',
     ],
     'Laravel development environments' => [
@@ -37,8 +37,8 @@ $categories = [
         'Takeout' => 'dunno',
     ],
     'Common macOS tools used by Laravel developers' => [
-        'iTerm' => 'yay',
-        'Tinkerwell' => 'yay',
+        'iTerm' => 'yes',
+        'Tinkerwell' => 'yes',
         'Sublime Text' => 'dunno',
         'VS Code' => 'dunno',
         'PHPStorm' => 'dunno',
@@ -53,12 +53,12 @@ $categories = [
         'Adobe Audition' => 'dunno',
         'Screenflow' => 'dunno',
         'OBS' => 'dunno',
-        'Karabiner Elements' => 'yay',
+        'Karabiner Elements' => 'yes',
         'Invoker' => 'dunno',
     ],
     'Laravel internal tools' => [
-        'Artisan' => 'yay',
-        'Tinker' => 'yay',
+        'Artisan' => 'yes',
+        'Tinker' => 'yes',
         'Horizon' => 'dunno',
     ],
     'Laravel development environments' => [
@@ -71,8 +71,8 @@ $categories = [
         'Takeout' => 'dunno',
     ],
     'Common macOS tools used by Laravel developers' => [
-        'iTerm' => 'yay',
-        'Tinkerwell' => 'yay',
+        'iTerm' => 'yes',
+        'Tinkerwell' => 'yes',
         'Sublime Text' => 'dunno',
         'VS Code' => 'dunno',
         'PHPStorm' => 'dunno',
@@ -87,7 +87,7 @@ $categories = [
         'Adobe Audition' => 'dunno',
         'Screenflow' => 'dunno',
         'OBS' => 'dunno',
-        'Karabiner Elements' => 'yay',
+        'Karabiner Elements' => 'yes',
         'Invoker' => 'dunno',
     ],
 ];
