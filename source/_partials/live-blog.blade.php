@@ -78,5 +78,7 @@ released but not yet supported version.
         <li>Install worked with no errors. <code>valet install</code> let's go... asks for my password, gonna CTRL-C out and see if <code>valet trust</code> works on M1/Big Sur... uhhhh.. trust is not defined? Didn't I write the freaking command? It's in the docs... well.. this is not a good sign for Valet. Gonna try Valet install without running valet trust.</li>
         <li>... so valet install is working but not valet trust? Valet installed successfully</li>
         <li>Ahh. you can't run trust until you've run install. False alarm! Valet's installed. Let's try parking.</li>
-        <li><code>cd Sites && valet park</code></li>
+        <li><code>cd Sites && valet park</code>.. boom. Let's make a site with Lambo and try it out!</li>
+        <li><code>cd Sites && lambo yourBestSiteNow</code>.... let's goooo... and we're serving from yourbestsitenow.test!</li>
+        <li>Let's try <code>valet share</code> now.
     </ul>
