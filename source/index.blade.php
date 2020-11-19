@@ -130,6 +130,8 @@ any issues you experience while you are running this
 released but not yet supported version.
 </code>
 </li>
+        <li>PHP installed!</li>
+        <li>brew services start php</li>
     </ul>
 
 </section>
