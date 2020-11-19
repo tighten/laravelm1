@@ -82,5 +82,6 @@ released but not yet supported version.
         <li><code>cd Sites && lambo yourBestSiteNow</code>.... let's goooo... and we're serving from yourbestsitenow.test!</li>
         <li>Let's try <code>valet share</code> now. Hm.. it's showing the session, but when requests are made they're getting 404 (served by Valet!) instead of the right stuff. I'm gonna call Valet Share not working right now.</li>
         <li><span>Thursday 6:06PM</span> OK, let's do some Redis! Then I need dinner.</li>
-        <li><code>arch -x86_64 brew install redis && brew serviceds start redis</code>
+        <li><code>arch -x86_64 brew install redis && brew services start redis</code></li>
+        <li>Time to download TablePlus and see if it works.</li>
     </ul>
