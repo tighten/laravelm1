@@ -103,7 +103,7 @@
 </style>
     <h2>Testing on a brand new machine, having taken these steps:</h2>
     <ul class="live-blog">
-        <li>Download iTerm</li>
+        <li><span>Thursday mid-afternoon</span>Download iTerm</li>
         <li>Install oh-my-zsh, which prompted installing the command line developer tools</li>
         <li>Install oh-my-zsh again</li>
         <li>`sudo mkdir /usr/local/bin && chmod 775 /usr/local/bin` and hope that's not the wrong thing to do
@@ -114,14 +114,14 @@
         <li>Use the installer (`mkdir ~/Sites && cd ~/Sites && laravel new m1suckazzzzzz`)</li>
         <li>Read and consider this article: <a href="https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602">Run x86 Apps including homebrew on the Terminal on Apple Silicon</a>, then decide nope</li>
         <li>Decide on this one instead: <a href="https://soffes.blog/homebrew-on-apple-silicon">Homebrew on Apple Silicon</a></li>
-        <li>In iTerm, run: `arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`. Get error: "arch: posix_spawnp: /bin/bash: Bad CPU type in executable" ... Googling, no luck. Gonna try again in the morning. MES 12:18am 2020-11-19 Eastern</li>
+        <li><span>Thursday 12:18am</span>In iTerm, run: `arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`. Get error: "arch: posix_spawnp: /bin/bash: Bad CPU type in executable" ... Googling, no luck. Gonna try again in the morning</li>
         <li>Stubborn. Stayed up. Found answer here: https://github.com/Homebrew/brew/issues/7857#issuecomment-729726634</li>
         <li>`/usr/sbin/softwareupdate --install-rosetta --agree-to-license`</li>
         <li>`arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"` YAY!</li>
-        <li>A few errors... `get_owner:1: command not found: stat -f` happened twice. Hit the "Press RETURN to continue or " text.. hit return a few times, tried other keys, nothing's working. Gonna let it just run overnight I guess. 12:28am</li>
+        <li><span>Thursday 12:28am</span>A few errors... `get_owner:1: command not found: stat -f` happened twice. Hit the "Press RETURN to continue or " text.. hit return a few times, tried other keys, nothing's working. Gonna let it just run overnight I guess. 12:28am</li>
         <li>`composer require tightenco/lambo && cd ~/Sites && lambo mynewsite` .. works great ✓</li>
-        <li>Tried to run the Brew installer. Hangs on "Press RETURN" again. 🤷‍♂️ Really to bed this time. 12:36am</li>
-        <li>Woke up to Jess Archer giving my sleep-addled brain the answer on my sudo permissions issue above, which was: you didn't chown /usr/local/bin, dummy!</li>
+        <li><span>Thursday 12:36am</span>Tried to run the Brew installer. Hangs on "Press RETURN" again. 🤷‍♂️ Really to bed this time. 12:36am</li>
+        <li><span>Thursday 7:30pm</span>Woke up to Jess Archer giving my sleep-addled brain the answer on my sudo permissions issue above, which was: you didn't chown /usr/local/bin, dummy!</li>
         <li>I think my problem with the Homebrew installer is probably because I created the /usr/local/bin directory first and it's farting out on it, so I'm going to try to change its permissions myself. Homebrew suggests I need to make it group writeable, make the group "admin", and make me the owner. I believe that's `sudo chown -R matthewstauffer:admin /usr/local/bin`, so let's try it!.. worked</li>
         <li>... but the Homebrew installer is still hanging. It feels like it's not actually getting my "RETURN" press? I'm going to download it, edit it, and see if that is indeed the problem. Looks like this RETURN prompt is only used once, and it makes me wonder whether it's having trouble reading my TTY input or whatever, so I'm replace the internals of the wait_for_user method with "echo 'yay'". So I created a local copy of the file, made that change, and now I'm running it myself... `arch -x86_64 /bin/bash installhomebrewh.sh`</li>
         <li>No errors on the installer!! Let's gooooooo</li>
@@ -153,7 +153,7 @@ released but not yet supported version.
 </li>
         <li>PHP installed!</li>
         <li>`brew services start php` worked!</li>
-        <li>Meetings.. back later. 1:03pm eastern thursday</li>
+        <li><span>Thursday 1:30pm</span>Meetings.. back later</li>
         <li><span>Thursday 5:19pm</span> OK, let's go. I read the output of this blogging format and I hate it so I'm gonna fix it quickly before I get back to M1.</li>
     </ul>
 
