@@ -83,5 +83,6 @@ released but not yet supported version.
         <li>Let's try <code>valet share</code> now. Hm.. it's showing the session, but when requests are made they're getting 404 (served by Valet!) instead of the right stuff. I'm gonna call Valet Share not working right now.</li>
         <li><span>Thursday 6:06PM</span> OK, let's do some Redis! Then I need dinner.</li>
         <li><code>arch -x86_64 brew install redis && brew services start redis</code></li>
-        <li>Time to download TablePlus and see if it works. Their site only says 10.11+ so it's not officially supported... looks good so far! Creating a new Redis connection... Error <code>setsockopt(SO_RCVTIMEO) Invalid argument</code>. That may be a Redis thing, or a TablePlus thing, <em>or</em> me just putting the details in wrong. Let me check my main computer's TablePlus.</li>
+        <li>Time to download TablePlus and see if it works. Their site only says 10.11+ so it's not officially supported... looks good so far! Creating a new Redis connection... Error <code>setsockopt(SO_RCVTIMEO) Invalid argument</code>. That may be a Redis thing, or a TablePlus thing, <em>or</em> me just putting the details in wrong. Let me check my main computer's TablePlus. Nope, same settings. OK, let's test Redis somewhere else so we can figure out if the problem is Redis or TablePlus.</li>
+        <li>
     </ul>
