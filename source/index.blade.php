@@ -30,7 +30,7 @@
         <li>@include('_partials.dunno')Homebrew</li>
         <li>@include('_partials.dunno')npm</li>
         <li>@include('_partials.dunno')nvm</li>
-        <li>@include('_partials.dunno')Lambo</li>
+        <li>@include('_partials.yay')Lambo</li>
         <li>@include('_partials.yay')oh-my-zsh</li>
     </ul>
 
@@ -85,6 +85,7 @@
         <li>`/usr/sbin/softwareupdate --install-rosetta --agree-to-license`</li>
         <li>`arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"` YAY!</li>
         <li>A few errors... `get_owner:1: command not found: stat -f` happened twice. Hit the "Press RETURN to continue or " text.. hit return a few times, tried other keys, nothing's working. Gonna let it just run overnight I guess. 12:28am</li>
+        <li>`composer require tightenco/lambo && cd ~/Sites && lambo mynewsite` .. works great ✓</li>
     </ul>
 
 </section>
