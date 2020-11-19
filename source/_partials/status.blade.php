@@ -52,11 +52,6 @@ $categories = [
         'Karabiner Elements' => 'yes',
         'Invoker' => 'unsure',
     ],
-    'Laravel internal tools' => [
-        'Artisan' => 'yes',
-        'Tinker' => 'yes',
-        'Horizon' => 'unsure',
-    ],
     'Laravel development environments' => [
         'Laravel Valet' => 'unsure',
         'Laravel Homestead' => 'unsure',
