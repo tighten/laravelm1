@@ -2,7 +2,7 @@
 
 @section('body')
 <section class="container max-w-6xl mx-auto px-6 py-10 md:py-12">
-    <div class="flex flex-col-reverse mb-10 lg:flex-row lg:mb-24">
+    <div class="flex flex-col-reverse mb-8 lg:flex-row lg:mb-12">
         <div class="mt-8">
             <h1 id="intro-docs-template">{{ $page->siteName }}</h1>
 
@@ -12,56 +12,57 @@
 
                 <a href="https://jigsaw.tighten.co" title="Jigsaw by Tighten" class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded py-2 px-6">About Jigsaw</a>
             </div> --}}
-        </div>
 
-        <img src="/assets/img/logo-large.svg" alt="{{ $page->siteName }} large logo" class="mx-auto mb-6 lg:mb-0 ">
+            <p class="text-lg">Green is yes; red is no; grey hasn't been tested yet.</p>
+        </div>
     </div>
 
     <hr class="block my-8 border lg:hidden">
 
     <h2>Laravel Command-line tools</h2>
     <ul>
-        <li>Laravel Installer</li>
+        <li>@include('_partials.dunno')Laravel Installer</li>
     </ul>
 
     <h2>Laravel-ancillary command-line tools</h2>
     <ul>
-        <ul>Composer</ul>
-        <li>Homebrew</li>
-        <li>npm</li>
-        <li>nvm</li>
-        <li>Lambo</li>
-        <li>oh-my-zsh</li>
+        <li>@include('_partials.dunno')Composer</li>
+        <li>@include('_partials.dunno')Homebrew</li>
+        <li>@include('_partials.dunno')npm</li>
+        <li>@include('_partials.dunno')nvm</li>
+        <li>@include('_partials.dunno')Lambo</li>
+        <li>@include('_partials.yay')oh-my-zsh</li>
     </ul>
 
     <h2>Laravel development environments</h2>
     <ul>
-        <li>Laravel Valet</li>
-        <li>Laravel Homestead</li>
+        <li>@include('_partials.dunno')Laravel Valet</li>
+        <li>@include('_partials.dunno')Laravel Homestead</li>
     </ul>
 
     <h2>Docker-based tools</h2>
     <ul>
-        <li>Vessel</li>
-        <li>Takeout</li>
+        <li>@include('_partials.dunno')Vessel</li>
+        <li>@include('_partials.dunno')Takeout</li>
     </ul>
 
     <h2>Common macOS tools used by Laravel developers</h2>
     <ul>
-        <li>Tinkerwell</li>
-        <li>Sublime Text</li>
-        <li>VS Code</li>
-        <li>PHPStorm</li>
-        <li>TablePlus</li>
-        <li>GitHub Desktop</li>
-        <li>Slack</li>
-        <li>Discord</li>
-        <li>Trello</li>
-        <li>Rocket</li>
+        <li>@include('_partials.yay')iTerm</li>
+        <li>@include('_partials.dunno')Tinkerwell</li>
+        <li>@include('_partials.dunno')Sublime Text</li>
+        <li>@include('_partials.dunno')VS Code</li>
+        <li>@include('_partials.dunno')PHPStorm</li>
+        <li>@include('_partials.dunno')TablePlus</li>
+        <li>@include('_partials.dunno')GitHub Desktop</li>
+        <li>@include('_partials.dunno')Slack</li>
+        <li>@include('_partials.dunno')Discord</li>
+        <li>@include('_partials.dunno')Trello</li>
+        <li>@include('_partials.dunno')Rocket</li>
     </ul>
 
     <h2>Testing on a brand new machine, having taken these steps:</h2>
-    <ul>
+    <ul class="list-disc">
         <li>Download iTerm</li>
         <li>Install oh-my-zsh, which prompoted installing the command line developer tools</li>
         <li>Install oh-my-zsh again</li>

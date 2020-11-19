@@ -6,7 +6,7 @@ return [
     'baseUrl' => '',
     'production' => false,
     'siteName' => 'Laravel M1',
-    'siteDescription' => 'What Laravel projects and Laravel-based tools work and don\'t on M1?',
+    'siteDescription' => 'What Laravel projects and Laravel-based tools do and don\'t work on M1?',
 
     // Algolia DocSearch credentials
     'docsearchApiKey' => '',
