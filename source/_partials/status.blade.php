@@ -97,7 +97,7 @@ $categories = [
     <ul>
     @foreach ($tools as $toolName => $partial)
         @if (is_array($partial))
-            <li><a href="{{ $partial['link'] }}">@include('_partials.' . $partial['partial']){{ $toolName }}</a></li>
+            <li><a href="{{ $partial['link'] }}">@include('_partials.' . $partial['status']){{ $toolName }}</a></li>
         @else
             <li>@include('_partials.' . $partial){{ $toolName }}</li>
         @endif
