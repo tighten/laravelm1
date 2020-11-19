@@ -111,7 +111,7 @@
             <code>
             arm () {
     while read -ra c; do
-        "$@" "${c[@]}"
+        arch -x86_64 "${c[@]}"
     done
     </code>
 }
