@@ -22,8 +22,6 @@
     <hr class="block my-8 border lg:hidden">
 
     @include('partials.status')
-
     @include('_partials.live-blog')
-
 </section>
 @endsection

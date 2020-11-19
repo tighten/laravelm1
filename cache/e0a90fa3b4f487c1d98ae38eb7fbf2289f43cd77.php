@@ -16,9 +16,7 @@
     <hr class="block my-8 border lg:hidden">
 
     <?php echo $__env->make('partials.status', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-
     <?php echo $__env->make('_partials.live-blog', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-
 </section>
 <?php $__env->stopSection(); ?>
 
