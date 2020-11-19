@@ -28,6 +28,7 @@
 
     <h2>Laravel-ancillary command-line tools</h2>
     <ul>
+        <li>@include('_partials.yay')PHP</li>
         <li>@include('_partials.yay')Vim</li>
         <li>@include('_partials.yay')Composer</li>
         <li>@include('_partials.dunno')Homebrew</li>
