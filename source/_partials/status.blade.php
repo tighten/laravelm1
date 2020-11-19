@@ -1,7 +1,19 @@
-<h2>Laravel Command-line tools</h2>
-<ul>
-    <li>@include('_partials.yay')Laravel Installer</li>
-</ul>
+@php
+$categories = [
+    'Laravel Command-line tools' => [
+        'Laravel Installer' => 'yay',
+    ],
+];
+@endphp
+
+@foreach ($categories as $name => $tools)
+    <h2>{{ $name }}</h2>
+    <ul>
+    @foreach ($tools as $toolName => $partial)
+        <li>@include('_partials.' . $partial){{ $toolName }}</li>
+    @endforeach
+    </ul>
+@endforeach
 
 <h2>Laravel-ancillary command-line tools</h2>
 <ul>
