@@ -61,7 +61,7 @@
     <h2>Common macOS tools used by Laravel developers</h2>
     <ul>
         <li>@include('_partials.yay')iTerm</li>
-        <li>@include('_partials.dunno')Tinkerwell</li>
+        <li>@include('_partials.yay')Tinkerwell</li>
         <li>@include('_partials.dunno')Sublime Text</li>
         <li>@include('_partials.dunno')VS Code</li>
         <li>@include('_partials.dunno')PHPStorm</li>
@@ -76,6 +76,7 @@
         <li>@include('_partials.dunno')Adobe Audition</li>
         <li>@include('_partials.dunno')Screenflow</li>
         <li>@include('_partials.dunno')OBS</li>
+        <li>@include('_partials.yay')Karabiner Elements</li>
         <li>@include('_partials.dunno')Invoker</li>
     </ul>
 
