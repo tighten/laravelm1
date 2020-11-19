@@ -88,7 +88,7 @@
     padding-bottom: 1em;
 }
 .live-blog li span {
-    color: #111;
+    color: #555;
     display: block;
     font-size: 0.75em;
 }
