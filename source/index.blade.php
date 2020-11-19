@@ -95,6 +95,7 @@
     font-weight: bold;
     left: -6em;
     text-transform: uppercase;
+    position: absolute;
     width: 5em;
 }
 </style>
