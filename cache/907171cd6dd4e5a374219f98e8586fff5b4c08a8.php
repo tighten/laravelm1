@@ -1,4 +1,4 @@
-@php
+<?php
 $categories = [
     'Laravel Command-line tools' => [
         'Laravel Installer' => 'yay',
@@ -87,12 +87,13 @@ $categories = [
         'Invoker' => 'dunno',
     ],
 ];
-@endphp
+?>
 
-@foreach ($categories as $name => $tools)
+<?php $__currentLoopData = $categories; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $name => $tools): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
     <ul>
-    @foreach ($tools as $toolName => $partial)
-    <li>@include('_partials' . $partial){{ $toolName }}</li>
-    @endforeach
+    <?php $__currentLoopData = $tools; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $toolName => $partial): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+    <li><?php echo $__env->make('_partials' . $partial, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php echo e($toolName); ?></li>
+    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
     </ul>
-@endforeach
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+<?php /**PATH /Users/mattstauffer/Sites/laravelm1/source/_partials/status.blade.php ENDPATH**/ ?>
