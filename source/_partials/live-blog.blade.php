@@ -75,5 +75,5 @@ released but not yet supported version.
         <li><span>Thursday 1:30pm</span>Meetings.. back later</li>
         <li><span>Thursday 5:19pm</span> OK, let's go. I read the output of this blogging format and I hate it so I'm gonna fix it quickly before I get back to M1.</li>
         <li><span>Thursday 5:44PM</span>OK, spent literally 30 minutes tweaking the blog. Let's get to Valet. <code>composer global require laravel/valet</code></li>
-        <li>Install worked with no errors. <code>valet install</code> let's go...</li>
+        <li>Install worked with no errors. <code>valet install</code> let's go... asks for my password, gonna CTRL-C out and see if <code>valet trust</code> works on M1/Big Sur...</li>
     </ul>
