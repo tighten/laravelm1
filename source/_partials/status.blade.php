@@ -90,7 +90,6 @@ $categories = [
 @endphp
 
 @foreach ($categories as $name => $tools)
-        '{{ $name }}' => [
     <ul>
     @foreach ($tools as $toolName => $partial)
         ' . $partial){{ $toolName }}' => '_partials.,
