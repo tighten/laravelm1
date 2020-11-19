@@ -18,7 +18,8 @@ $categories = [
         'Redis' => 'dunno',
     ],
     'Laravel development environments' => [
-        'Laravel Valet' => 'dunno',
+        'Laravel Valet' => 'yep',
+        'Laravel Valet Share' => 'boo',
         'Laravel Homestead' => 'dunno',
     ],
     'Laravel internal tools' => [
