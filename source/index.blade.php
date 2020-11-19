@@ -91,6 +91,7 @@
     color: #555;
     display: block;
     font-size: 0.75em;
+    text-transform: uppercase;
 }
 </style>
     <h2>Testing on a brand new machine, having taken these steps:</h2>
