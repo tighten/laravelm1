@@ -88,7 +88,9 @@
     padding-bottom: 1em;
 }
 .live-blog li span {
+    color: #111;
     display: block;
+    font-size: 0.75em;
 }
 </style>
     <h2>Testing on a brand new machine, having taken these steps:</h2>
