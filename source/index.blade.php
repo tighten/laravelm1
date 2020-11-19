@@ -21,7 +21,7 @@
 
     <h2>Laravel Command-line tools</h2>
     <ul>
-        <li>@include('_partials.dunno')Laravel Installer</li>
+        <li>@include('_partials.yay')Laravel Installer</li>
     </ul>
 
     <h2>Laravel-ancillary command-line tools</h2>
