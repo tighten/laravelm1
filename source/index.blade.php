@@ -80,8 +80,16 @@
         <li>@include('_partials.dunno')Invoker</li>
     </ul>
 
+<style>
+.live-blog li {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+</style>
     <h2>Testing on a brand new machine, having taken these steps:</h2>
-    <ul class="list-disc">
+    <ul class="live-blog">
         <li>Download iTerm</li>
         <li>Install oh-my-zsh, which prompted installing the command line developer tools</li>
         <li>Install oh-my-zsh again</li>
