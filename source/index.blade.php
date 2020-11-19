@@ -117,6 +117,7 @@
     </code>.. womp that didn't work oh well</li>
         <li>Huh. in my zshrc I see this flag commented out: `export ARCHFLAGS="-arch x86_64"`.. think i'm gonna uncomment that.</li>
         <li>OK, let's try it the old way. `arch -x86_64 bash update`</li>
+        <li>UGHHH shoot me... back to good old `arch: posix_spawnp: brew: bad CPU type in executable`. WTF?!</li>
     </ul>
 
 </section>
