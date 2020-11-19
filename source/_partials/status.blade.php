@@ -17,18 +17,14 @@ $categories = [
         'oh-my-zsh' => 'yes',
         'Redis' => 'unsure',
     ],
-    'Laravel development environments' => [
-        'Laravel Valet!' => 'yes',
-        'Laravel Valet Share' => 'no',
-        'Laravel Homestead' => 'unsure',
-    ],
     'Laravel internal tools' => [
         'Artisan' => 'yes',
         'Tinker' => 'yes',
         'Horizon' => 'unsure',
     ],
     'Laravel development environments' => [
-        'Laravel Valet' => 'unsure',
+        'Laravel Valet' => 'yes',
+        'Laravel Valet Share' => 'no',
         'Laravel Homestead' => 'unsure',
     ],
     'Docker-based tools' => [
