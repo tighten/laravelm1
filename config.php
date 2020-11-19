@@ -5,8 +5,8 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'Docs Starter Template',
-    'siteDescription' => 'Beautiful docs powered by Jigsaw',
+    'siteName' => 'Laravel M1',
+    'siteDescription' => 'What Laravel projects and Laravel-based tools work and don\'t on M1?',
 
     // Algolia DocSearch credentials
     'docsearchApiKey' => '',
