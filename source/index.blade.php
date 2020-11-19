@@ -131,7 +131,8 @@ released but not yet supported version.
 </code>
 </li>
         <li>PHP installed!</li>
-        <li>brew services start php</li>
+        <li>`brew services start php` worked!</li>
+        <li>Meetings.. back later. 1:03pm eastern thursday</li>
     </ul>
 
 </section>
