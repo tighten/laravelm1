@@ -90,6 +90,7 @@ $categories = [
 @endphp
 
 @foreach ($categories as $name => $tools)
+    <h2>{{ $name }}</h2>
     <ul>
     @foreach ($tools as $toolName => $partial)
     <li>@include('_partials.' . $partial){{ $toolName }}</li>
