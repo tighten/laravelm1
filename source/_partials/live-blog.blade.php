@@ -46,8 +46,8 @@
         <li>No errors on the installer!! Let's gooooooo</li>
         <li>Installed the latest macOS update which took several hours.</li>
         <li>Tried to use `git` and got this error: `xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun`... let's get to googling. Google says the gool 'ol `xcode-select --install`, which I could've swore I already did? But let's do it again.</li>
-        <li>Hooray! Git works again! Now on to Homebrew; gonna run `brew update` but I have to remember to prefix it: `arch -x86_64 brew` which is a pita so I'm gonna build a passthrough command `arm` that shortcuts that same thing.</li>
-        <li>Gonna add this to my `.zshrc` and see how it treats me for creating basically an ARM repl... <br>
+        <li>Hooray! Git works again! Now on to Homebrew; gonna run <code>brew update</code> but I have to remember to prefix it: <code>arch -x86_64 brew</code> which is a PITA so I'm gonna build a passthrough command <code>arm</code> that shortcuts that same thing.</li>
+        <li>Gonna add this to my <code>.zshrc</code> and see how it treats me for creating basically an ARM repl... <br>
             <code>
             arm () {
     while read -ra c; do
@@ -55,9 +55,9 @@
     done
 }
     </code>.. womp that didn't work oh well</li>
-        <li>Huh. in my zshrc I see this flag commented out: `export ARCHFLAGS="-arch x86_64"`.. think i'm gonna uncomment that.</li>
+        <li>Huh. in my zshrc I see this flag commented out: <code>export ARCHFLAGS="-arch x86_64"</code>.. think i'm gonna uncomment that.</li>
         <li>OK, let's try it the old way. `arch -x86_64 bash update`</li>
-        <li>UGHHH shoot me... back to good old `arch: posix_spawnp: brew: bad CPU type in executable`. WTF?! <code>/usr/sbin/softwareupdate --install-rosetta --agree-to-license</code> again I guess?</li>
+        <li>UGHHH shoot me... back to good old <code>arch: posix_spawnp: brew: bad CPU type in executable</code>. WTF?! <code>/usr/sbin/softwareupdate --install-rosetta --agree-to-license</code> again I guess?</li>
         <li>HEYYY it's doing something...</li>
         <li><code>arch -x86_64 brew install php</code></li>
         <li>
