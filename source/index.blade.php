@@ -114,7 +114,8 @@
         arch -x86_64 "${c[@]}"
     done
 }
-    </code>
+    </code>.. womp that didn't work oh well</li>
+
         <li>Huh. in my zshrc I see this flag commented out: `export ARCHFLAGS="-arch x86_64"`.. think i'm gonna uncomment that.</li>
     </ul>
 
