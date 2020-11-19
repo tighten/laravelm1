@@ -25,6 +25,7 @@ $categories = [
         'nvm' => 'unsure',
         'Lambo' => 'yes',
         'oh-my-zsh' => 'yes',
+        'Homebrew Redis' => 'no',
         'Redis' => 'unsure',
     ],
     'Common macOS tools used by Laravel developers' => [
