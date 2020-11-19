@@ -93,7 +93,11 @@ $categories = [
     <h2>{{ $name }}</h2>
     <ul>
     @foreach ($tools as $toolName => $partial)
-    <li>@include('_partials.' . $partial){{ $toolName }}</li>
+        @if (is_array($partial))
+            <li><a href="{{ $partial['link'] }}">@include('_partials.' . $partial['partial']){{ $toolName }}</a></li>
+        @else
+            <li>@include('_partials.' . $partial){{ $toolName }}</li>
+        @endif
     @endforeach
     </ul>
 @endforeach
