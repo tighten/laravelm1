@@ -113,8 +113,9 @@
     while read -ra c; do
         arch -x86_64 "${c[@]}"
     done
-    </code>
 }
+    </code>
+        <li>Huh. in my zshrc I see this flag commented out: `export ARCHFLAGS="-arch x86_64"`.. think i'm gonna uncomment that.</li>
     </ul>
 
 </section>
