@@ -3,6 +3,18 @@ $categories = [
     'Laravel Command-line tools' => [
         'Laravel Installer' => 'yay',
     ],
+    'Laravel-ancillary command-line tools' => [
+        'PHP' => 'yay',
+        'Vim' => 'yay',
+        'Composer' => 'yay',
+        'Homebrew' => 'dunno',
+        'npm' => 'dunno',
+        'nvm' => 'dunno',
+        'Lambo' => 'yay',
+        'oh-my-zsh' => 'yay',
+        'Redis' => 'dunno',
+    ],
+
 ];
 @endphp
 
