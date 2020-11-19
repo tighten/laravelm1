@@ -98,7 +98,7 @@
     text-align: right;
     text-transform: uppercase;
     position: absolute;
-    width: 5em;
+    width: 7em;
 }
 </style>
     <h2>Testing on a brand new machine, having taken these steps:</h2>
