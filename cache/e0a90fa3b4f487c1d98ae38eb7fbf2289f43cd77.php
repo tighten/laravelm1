@@ -9,7 +9,7 @@
 
             <p class="text-lg">Green is yes; red is no; grey hasn't been tested yet.</p>
             <p>Source here, in case you want to make PRs: <a href="https://github.com/tighten/laravelm1">github.com/tighten/laravelm1</a></p>
-            <p>Another resource here: https://roaringapps.com/collections/list-of-apple-silicon-native-apps</p>
+            <p>Another resource here: <a href="https://roaringapps.com/collections/list-of-apple-silicon-native-apps">https://roaringapps.com/collections/list-of-apple-silicon-native-apps</a></p>
         </div>
     </div>
 
