@@ -155,6 +155,7 @@ released but not yet supported version.
         <li>`brew services start php` worked!</li>
         <li><span>Thursday 1:30pm</span>Meetings.. back later</li>
         <li><span>Thursday 5:19pm</span> OK, let's go. I read the output of this blogging format and I hate it so I'm gonna fix it quickly before I get back to M1.</li>
+        <li>Valet's up next.
     </ul>
 
 </section>
