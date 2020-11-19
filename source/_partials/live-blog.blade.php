@@ -88,5 +88,5 @@ released but not yet supported version.
         <li>I'm gonna say Homebrew Redis isn't working out of the box. I'll uninstall it and try non-Homebrew. Following this: https://phoenixnap.com/kb/install-redis-on-mac (Option 2)</li>
         <li>After running `make` I see "/bin/sh: pk-config: command not found" a few times. Not a good sign!</li>
         <li><code>make test</code> .. as the output flies by I see that same error several times...</li>
-        <li>
+        <li><span>Thursday 6:17PM</span>While this runs I'm gonna go eat.</li>
     </ul>
