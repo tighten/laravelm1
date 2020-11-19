@@ -133,6 +133,7 @@ released but not yet supported version.
         <li>PHP installed!</li>
         <li>`brew services start php` worked!</li>
         <li>Meetings.. back later. 1:03pm eastern thursday</li>
+        <li>OK, let's go. I read the output of this blogging format and I hate it so I'm gonna fix it quickly before I get back to M1.</li>
     </ul>
 
 </section>
