@@ -3,6 +3,16 @@ $categories = [
     'Laravel Command-line tools' => [
         'Laravel Installer' => 'yes',
     ],
+    'Laravel internal tools' => [
+        'Artisan' => 'yes',
+        'Tinker' => 'yes',
+        'Horizon' => 'unsure',
+    ],
+    'Laravel development environments' => [
+        'Laravel Valet' => 'yes',
+        'Laravel Valet Share' => 'no',
+        'Laravel Homestead' => 'unsure',
+    ],
     'Laravel-ancillary command-line tools' => [
         'PHP' => 'yes',
         'Vim' => 'yes',
@@ -17,21 +27,6 @@ $categories = [
         'oh-my-zsh' => 'yes',
         'Redis' => 'unsure',
     ],
-    'Laravel internal tools' => [
-        'Artisan' => 'yes',
-        'Tinker' => 'yes',
-        'Horizon' => 'unsure',
-    ],
-    'Laravel development environments' => [
-        'Laravel Valet' => 'yes',
-        'Laravel Valet Share' => 'no',
-        'Laravel Homestead' => 'unsure',
-    ],
-    'Docker-based tools' => [
-        'Docker' => 'unsure',
-        'Vessel' => 'unsure',
-        'Takeout' => 'unsure',
-    ],
     'Common macOS tools used by Laravel developers' => [
         'iTerm' => 'yes',
         'Tinkerwell' => 'yes',
@@ -52,34 +47,10 @@ $categories = [
         'Karabiner Elements' => 'yes',
         'Invoker' => 'unsure',
     ],
-    'Laravel development environments' => [
-        'Laravel Valet' => 'unsure',
-        'Laravel Homestead' => 'unsure',
-    ],
     'Docker-based tools' => [
         'Docker' => 'unsure',
         'Vessel' => 'unsure',
         'Takeout' => 'unsure',
-    ],
-    'Common macOS tools used by Laravel developers' => [
-        'iTerm' => 'yes',
-        'Tinkerwell' => 'yes',
-        'Sublime Text' => 'unsure',
-        'VS Code' => 'unsure',
-        'PHPStorm' => 'unsure',
-        'TablePlus' => 'unsure',
-        'GitHub Desktop' => 'unsure',
-        'Slack' => 'unsure',
-        'Discord' => 'unsure',
-        'Trello' => 'unsure',
-        'Rocket' => 'unsure',
-        'Parallels' => 'unsure',
-        'Rogue Amoeba tools' => 'unsure',
-        'Adobe Audition' => 'unsure',
-        'Screenflow' => 'unsure',
-        'OBS' => 'unsure',
-        'Karabiner Elements' => 'yes',
-        'Invoker' => 'unsure',
     ],
 ];
 @endphp
