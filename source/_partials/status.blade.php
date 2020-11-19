@@ -17,14 +17,14 @@ $categories = [
 ];
 @endphp
 
-{{-- @foreach ($categories as $name => $tools)
+@foreach ($categories as $name => $tools)
     <h2>{{ $name }}</h2>
     <ul>
     @foreach ($tools as $toolName => $partial)
         <li>@include('_partials.' . $partial){{ $toolName }}</li>
     @endforeach
     </ul>
-@endforeach --}}
+@endforeach
 
 <h2>Laravel-ancillary command-line tools</h2>
 <ul>
