@@ -89,6 +89,12 @@ $categories = [
             @if (isset($partial['details']))
             <div class="inline-block" x-data="{ open: false }">
                 <a @click="open = true">[i]</a>
+                <div
+                    x-show="open"
+                    @click.away="open = false"
+                >
+                    {{ $partial['details'] }}
+                </div>
             </div>
             @endif
         @else
