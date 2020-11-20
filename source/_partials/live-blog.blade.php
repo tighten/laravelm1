@@ -109,5 +109,5 @@ released but not yet supported version.
         <li><code>arm brew install memcached && brew services start memcached</code>... ran great. Now I have to remember how to test memcached. Honestly, using it for a Laravel app's cache is probably easiest.</li>
         <li>Whoops, now I remember! You have to install the memcached extension using PECL. Let's test PECL!</li>
         <li>I went through half of the steps to set up PECL, only to find out it's already set up by Homebrew now!! YES! Thank God!</li>
-        <li>Now I just have to set it up for this extension. <code>arm brew install libmemcached</code> and then <code>pecl install memcached</code>.. hit enter on all the defaults...</li>
+        <li>Now I just have to set it up for this extension. <code>arm brew install libmemcached</code> and then <code>pecl install memcached</code>.. hit enter on all the defaults... yet another one of these <code>pkg-config</code> errors. This one says: "pkg-config not found / configure: error: Please reinstall the pkg-config distribution / ERROR: (failure notice)"</li>
     </ul>
