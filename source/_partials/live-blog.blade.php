@@ -111,5 +111,5 @@ released but not yet supported version.
         <li>I went through half of the steps to set up PECL, only to find out it's already set up by Homebrew now!! YES! Thank God!</li>
         <li>Now I just have to set it up for this extension. <code>arm brew install libmemcached</code> and then <code>pecl install memcached</code>.. hit enter on all the defaults... yet another one of these <code>pkg-config</code> errors. This one says: "pkg-config not found / configure: error: Please reinstall the pkg-config distribution / ERROR: (failure notice)"</li>
         <li>OK, let's learn about <code>pkg-config</code>, cause I know nothing about it.</li>
-        <li>
+        <li>well, it's on Homebrew, so let's try that.</li>
     </ul>
