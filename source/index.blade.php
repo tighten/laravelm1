@@ -25,19 +25,19 @@
         <table class="border border-gray-400">
             <tr>
                 <td class="py-1 pl-3">@status('unsure')</td>
-                <td class="py-1 pr-3 pr-4">Haven't tested yet</td>
+                <td class="py-1 pr-3 pl-3">Haven't tested yet</td>
             </tr>
             <tr>
                 <td class="py-1 pl-3">@status('no')</td>
-                <td class="py-1 pr-3 pr-4">Doesn't work as of testing</td>
+                <td class="py-1 pr-3 pl-3">Doesn't work as of testing</td>
             </tr>
             <tr>
                 <td class="py-1 pl-3">@status('rosetta')</td>
-                <td class="py-1 pr-3 pr-4">Works, through Rosetta 2</td>
+                <td class="py-1 pr-3 pl-3">Works, through Rosetta 2</td>
             </tr>
             <tr>
                 <td class="py-1 pl-3">@status('yes')</td>
-                <td class="py-1 pr-3 pr-4">Works natively</td>
+                <td class="py-1 pr-3 pl-3">Works natively</td>
             </tr>
         </table>
     </div>
