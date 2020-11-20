@@ -89,4 +89,6 @@ released but not yet supported version.
         <li>After running `make` I see "/bin/sh: pk-config: command not found" a few times. Not a good sign!</li>
         <li><code>make test</code> .. as the output flies by I see that same error several times...</li>
         <li><span>Thursday 6:17PM</span>While this runs I'm gonna go eat.</li>
+        <li><span>Thursday 7:11PM</span>All tests passed without errors!</li>
+        <li>
     </ul>
