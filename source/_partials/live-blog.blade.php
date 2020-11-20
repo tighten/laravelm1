@@ -96,4 +96,6 @@ released but not yet supported version.
         <li><span>Thursday 7:26PM</span> Let's try... some downloadable apps! Sublime Text is up first.</li>
         <li>Downloading build 3211... works like a charm!</li>
         <li>PHPStorm says they work ("Our IDEs work on Apple Silicon chips through Rosetta 2.") so I'm gonna move on to things that haven't made official statements yet.</li>
+        <li>Let's try MySQL, PostgreSQL, and Memcached!</li>
+        <li>
     </ul>
