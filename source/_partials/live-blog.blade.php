@@ -93,5 +93,6 @@ released but not yet supported version.
         <li>... ran `sudo make install` and it gave an error and then output <code>INSTALL install</code> five times.... did that.. do anything? I feel like a Linux user right now.</li>
         <li>Read the README... OK, so this was supposed to put it in the /usr/local/bin. Let's check!</li>
         <li>... OK, yah it is there. Thought I checked but I guess I hadn't. Let's try! <code>redis-cli ping</code>... UGH. Same problem as with Homebrew. So there's something not working. Maybe debug-able? But not for me tonight.</li>
-        <li><span>Thursday 7:19PM</span> Let's try... some downloadable apps! Sublime Text is up first.</li>
+        <li><span>Thursday 7:26PM</span> Let's try... some downloadable apps! Sublime Text is up first.</li>
+        <li>Downloading build 3211</li>
     </ul>
