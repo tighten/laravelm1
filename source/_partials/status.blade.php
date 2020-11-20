@@ -25,7 +25,6 @@ $categories = [
             'status' => 'yes',
         ],
         'npm' => 'yes',
-        'nvm' => 'unsure',
         'Lambo' => 'yes',
         'oh-my-zsh' => 'yes',
         'Homebrew Redis' => [
