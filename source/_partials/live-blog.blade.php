@@ -99,4 +99,5 @@ released but not yet supported version.
         <li>Let's try MySQL, PostgreSQL, and Memcached!</li>
         <li>Oops, got distracted watching my brother's live show. TAKE TWO. MySQL.</li>
         <li><span>Thursday 8:11PM</span>MySQL. <code>arch -x86_64 brew install mysql && brew services start mysql</code></li>
+        <li>Tested it out, and we have a functioning local <code>mysql</code>, I can access it from TablePlus, and my Laravel app is integrating with it.</li>
     </ul>

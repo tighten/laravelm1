@@ -35,7 +35,7 @@ $categories = [
             'link' => '#blog-redis',
             'status' => 'no',
         ],
-        'MySQL' => 'unsure',
+        'MySQL' => 'yes',
         'PostgreSQL' => 'unsure',
         'memcached' => 'unsure',
     ],
