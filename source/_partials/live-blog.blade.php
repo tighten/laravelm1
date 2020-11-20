@@ -80,8 +80,8 @@ released but not yet supported version.
         <li>Ahh. you can't run trust until you've run install. False alarm! Valet's installed. Let's try parking.</li>
         <li><code>cd Sites && valet park</code>.. boom. Let's make a site with Lambo and try it out!</li>
         <li><code>cd Sites && lambo yourBestSiteNow</code>.... let's goooo... and we're serving from yourbestsitenow.test!</li>
-        <li>Let's try <code>valet share</code> now. Hm.. it's showing the session, but when requests are made they're getting 404 (served by Valet!) instead of the right stuff. I'm gonna call Valet Share not working right now.</li>
-        <li><span>Thursday 6:06PM</span> OK, let's do some Redis! Then I need dinner.</li>
+        <li id="blog-valet-share">Let's try <code>valet share</code> now. Hm.. it's showing the session, but when requests are made they're getting 404 (served by Valet!) instead of the right stuff. I'm gonna call Valet Share not working right now.</li>
+        <li id="blog-redis"><span>Thursday 6:06PM</span> OK, let's do some Redis! Then I need dinner.</li>
         <li><code>arch -x86_64 brew install redis && brew services start redis</code></li>
         <li>Time to download TablePlus and see if it works. Their site only says 10.11+ so it's not officially supported... looks good so far! Creating a new Redis connection... Error <code>setsockopt(SO_RCVTIMEO) Invalid argument</code>. That may be a Redis thing, or a TablePlus thing, <em>or</em> me just putting the details in wrong. Let me check my main computer's TablePlus. Nope, same settings. OK, let's test Redis somewhere else so we can figure out if the problem is Redis or TablePlus.</li>
         <li>Let's just see if Redis is even running. <code>redis-cli ping</code> NOPE. OK. Homebrew *did* say it successfully started Redis. Let's see if running the start command under the different architecture matters. <code>arch -x86_64 brew services start redis</code>... says it's already started. stopped and restarted it... Still this: <code>Could not connect to Redis at 127.0.0.1:6379: Connection refused</code>
