@@ -44,7 +44,10 @@ $categories = [
         'Tinkerwell' => 'yes',
         'Sublime Text' => 'yes',
         'VS Code' => 'unsure',
-        'PHPStorm' => 'unsure',
+        'PHPStorm' => [
+            'link' => 'https://youtrack.jetbrains.com/issue/JBR-2526',
+            'status' => 'unsure',
+        ],
         'TablePlus' => 'unsure',
         'That One App By the TablePlus people' => 'unsure',
         'GitHub Desktop' => 'unsure',
