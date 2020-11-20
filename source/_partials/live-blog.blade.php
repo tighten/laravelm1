@@ -106,5 +106,6 @@ released but not yet supported version.
         <li>OK, just checked out a ton of GUI apps that all work fine. Gonna call it for a while.</li>
         <li><span>Thursday 10:13PM</span>Lied. Tried OBS. Doesn't work.</li>
         <li><span>Friday 9:19AM</span>OK, got a few minutes free. What's next? I can't try Horizon without Redis. Homestead is a big lift, so I'm gonna wait on that. Memcached! Let's go!</li>
-        <li><code>arm brew install memcached && brew services start memcached</code>... ran great.</li>
+        <li><code>arm brew install memcached && brew services start memcached</code>... ran great. Now I have to remember how to test memcached. Honestly, using it for a Laravel app's cache is probably easiest.</li>
+        <li>
     </ul>
