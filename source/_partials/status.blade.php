@@ -92,6 +92,7 @@ $categories = [
                 <div
                     class="absolute bg-white border border-gray-500 p-4 rounded"
                     x-show="open"
+                    x-cloak
                     @click.away="open = false"
                 >
                     {{ $partial['details'] }}
