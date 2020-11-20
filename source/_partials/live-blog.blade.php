@@ -91,5 +91,6 @@ released but not yet supported version.
         <li><span>Thursday 6:17PM</span>While this runs I'm gonna go eat.</li>
         <li><span>Thursday 7:11PM</span>All tests passed without errors!</li>
         <li>... ran `sudo make install` and it gave an error and then output <code>INSTALL install</code> five times.... did that.. do anything? I feel like a Linux user right now.</li>
-        <li>
+        <li>Read the README... OK, so this was supposed to put it in the /usr/local/bin. Let's check!</li>
+
     </ul>
