@@ -57,7 +57,6 @@ $categories = [
         'Rocket' => 'unsure',
         'Parallels' => 'unsure',
         'Rogue Amoeba tools' => 'unsure',
-        'Adobe Audition' => 'unsure',
         'Screenflow' => 'no',
         'OBS' => 'unsure',
         'Karabiner Elements' => 'yes',
