@@ -87,7 +87,7 @@ $categories = [
         @if (is_array($partial))
             <a href="{{ $partial['link'] }}">@status($partial['status']){{ $toolName }}</a>
             @if (isset($partial['details']))
-            Hey!
+            <a href="">[i]
             @endif
         @else
             @status($partial){{ $toolName }}
