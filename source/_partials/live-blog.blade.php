@@ -103,4 +103,5 @@ released but not yet supported version.
         <li><span>Thursday 9:10PM</span>OK, let's check out Postgres. I made a <a href="https://twitter.com/stauffermatt/status/1329598260076572673">nice little shortcut</a> in my <code>.zshrc</code> that lets me write just <code>arm brew install whatever</code>, so future writing here will just show <code>arm</code>.</li>
         <li><code>arm brew install postgresql && brew services start postgresql</code>... that worked!</li>
         <li>The way I connected to Postgres on TablePlus doesn't work unless there's a database table named the same as my computer user, and since I didn't feel like taking the time to figure out why, I just ran <code>psql postgres</code> and in that REPL I wrote <code>CREATE DATABASE matthewstauffer;</code> and then hit enter. Once that was done, I could connect to this Postgres database using the default settings from TablePlus. Good to go!</li>
+        <li>OK, just checked out a ton of GUI apps that all work fine. Gonna call it for a while.</li>
     </ul>
