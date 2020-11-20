@@ -68,9 +68,9 @@ $categories = [
         'Invoker' => 'unsure',
     ],
     'Docker-based tools' => [
-        'Docker' => 'unsure',
-        'Vessel' => 'unsure',
-        'Takeout' => 'unsure',
+        'Docker' => 'no',
+        'Vessel' => 'no',
+        'Takeout' => 'no',
     ],
 ];
 @endphp
