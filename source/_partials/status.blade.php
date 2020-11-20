@@ -56,7 +56,10 @@ $categories = [
         'Trello' => 'unsure',
         'Rocket' => 'unsure',
         'Parallels' => 'unsure',
-        'Rogue Amoeba tools' => 'unsure',
+        'Rogue Amoeba tools' => [
+            'status' => 'no',
+            'link' => 'https://weblog.rogueamoeba.com/2020/11/16/rogue-amoeba-software-updates-for-macos-11-big-sur-and-m1-chip-based-macs/',
+        ],
         'Screenflow' => 'no',
         'OBS' => 'unsure',
         'Karabiner Elements' => 'yes',
