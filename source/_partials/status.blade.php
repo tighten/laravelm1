@@ -35,6 +35,8 @@ $categories = [
             'link' => '#blog-redis',
             'status' => 'no',
         ],
+        'MySQL' => 'unsure',
+
     ],
     'Common macOS tools used by Laravel developers' => [
         'iTerm' => 'yes',
@@ -43,6 +45,7 @@ $categories = [
         'VS Code' => 'unsure',
         'PHPStorm' => 'unsure',
         'TablePlus' => 'unsure',
+        'That One App By the TablePlus people' => 'unsure',
         'GitHub Desktop' => 'unsure',
         'Slack' => 'unsure',
         'Discord' => 'unsure',
