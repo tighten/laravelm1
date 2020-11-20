@@ -113,5 +113,5 @@ released but not yet supported version.
         <li>OK, let's learn about <code>pkg-config</code>, cause I know nothing about it.</li>
         <li>well, it's on Homebrew, so let's try that. <code>arm brew install pkg-config</code></li>
         <li>OK, <code>pecl install memcached</code> again.</li>
-        <li><span>Friday 10:37AM</span>Got taken away by my actual job. Back, that threw another error: memcached support requires ZLIB.</li>
+        <li><span>Friday 10:37AM</span>Got taken away by my actual job. Back, that threw another error: memcached support requires ZLIB. <code>arm brew install zlib</code></li>
     </ul>
