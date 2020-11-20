@@ -36,7 +36,7 @@ $categories = [
             'status' => 'no',
         ],
         'MySQL' => 'yes',
-        'PostgreSQL' => 'unsure',
+        'PostgreSQL' => 'yes',
         'memcached' => 'unsure',
     ],
     'Common macOS tools used by Laravel developers' => [
