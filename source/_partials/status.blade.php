@@ -25,8 +25,14 @@ $categories = [
         'nvm' => 'unsure',
         'Lambo' => 'yes',
         'oh-my-zsh' => 'yes',
-        'Homebrew Redis' => 'no',
-        'Redis' => 'no',
+        'Homebrew Redis' => [
+            'link' => '#blog-redis',
+            'status' => 'no',
+        ],
+        'Redis' => [
+            'link' => '#blog-redis',
+            'status' => 'no',
+        ],
     ],
     'Common macOS tools used by Laravel developers' => [
         'iTerm' => 'yes',
