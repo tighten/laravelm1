@@ -66,6 +66,7 @@ $categories = [
         'OBS' => [
             'status' => 'no',
             'link' => 'https://obsproject.com/forum/threads/support-for-m1-cpu-gpu-either-as-an-intel-app-or-recompiled.133576/',
+            'details' => 'It runs and captures video and audio, but can\'t capture your screen.',
         ],
         'Karabiner Elements' => 'yes',
         'Invoker' => 'unsure',
