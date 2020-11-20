@@ -90,6 +90,7 @@ $categories = [
             <div class="inline-block" x-data="{ open: false }">
                 <a @click="open = true">[i]</a>
                 <div
+                    class="absolute"
                     x-show="open"
                     @click.away="open = false"
                 >
