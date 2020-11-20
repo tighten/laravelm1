@@ -90,7 +90,7 @@ $categories = [
             <div class="inline-block" x-data="{ open: false }">
                 <a @click="open = true" class="cursor-pointer inline-block px-3 rounded bg-blue-500 text-white hover:text-white hover:bg-blue-700">i</a>
                 <div
-                    class="absolute bg-white border border-gray-500 p-4 rounded"
+                    class="absolute bg-white border border-gray-500 p-4 rounded -ml-1 -mt-2"
                     x-show="open"
                     x-cloak
                     @click.away="open = false"
