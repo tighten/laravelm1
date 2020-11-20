@@ -88,7 +88,7 @@ $categories = [
             <a href="{{ $partial['link'] }}">@status($partial['status']){{ $toolName }}</a>
             @if (isset($partial['details']))
             <div class="inline-block" x-data="{ open: false }">
-                <a @click="open = true" class="cursor-pointer inline-block p-4 bg-blue-500 text-white">i</a>
+                <a @click="open = true" class="cursor-pointer inline-block p-1 bg-blue-500 text-white">i</a>
                 <div
                     class="absolute bg-white border border-gray-500 p-4 rounded"
                     x-show="open"
