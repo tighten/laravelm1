@@ -108,5 +108,6 @@ released but not yet supported version.
         <li><span>Friday 9:19AM</span>OK, got a few minutes free. What's next? I can't try Horizon without Redis. Homestead is a big lift, so I'm gonna wait on that. Memcached! Let's go!</li>
         <li><code>arm brew install memcached && brew services start memcached</code>... ran great. Now I have to remember how to test memcached. Honestly, using it for a Laravel app's cache is probably easiest.</li>
         <li>Whoops, now I remember! You have to install the memcached extension using PECL. Let's test PECL!</li>
+        <li>Initial setup for PECL, as always: <code>pecl config-get ext_dir</code> to figure out our extension directory.
         <li>
     </ul>
