@@ -19,6 +19,17 @@
         </div>
     </div>
 
+    <div>
+        Legend:
+
+        <table>
+            <tr><td>Haven't tested yet</td><td class="bg-gray-400"></td></tr>
+            <tr><td>Doesn't work as of testing</td><td class="bg-red-500"></td></tr>
+            <tr><td>Works, through Rosetta 2</td><td class="bg-blue-500"></td></tr>
+            <tr><td>Works natively</td><td class="bg-green-500"></td></tr>
+        </table>
+    </div>
+
     <hr class="block my-8 border lg:hidden">
 
     @include('_partials.status')
