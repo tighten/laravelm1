@@ -20,7 +20,7 @@
     </div>
 
     <div>
-        Legend:
+        <h4>Legend:</h4>
 
         <table>
             <tr><td>Haven't tested yet</td><td class="bg-gray-400">&nbsp;&nbsp;&nbsp;</td></tr>
