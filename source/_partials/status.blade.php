@@ -10,7 +10,10 @@ $categories = [
     ],
     'Laravel development environments' => [
         'Laravel Valet' => 'yes',
-        'Laravel Valet Share' => 'no',
+        'Laravel Valet Share' => [
+            'link' => '#blog-valet-share',
+            'status' => 'no',
+        ],
         'Laravel Homestead' => 'unsure',
     ],
     'Laravel-ancillary command-line tools' => [
