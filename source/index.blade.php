@@ -22,7 +22,7 @@
     <div>
         <h4>Legend</h4>
 
-        <table class="p-4 border">
+        <table class="border">
             <tr><td class="pr-4 text-right">Haven't tested yet</td><td>@status('unsure')</td></tr>
             <tr><td class="pr-4 text-right">Doesn't work as of testing</td><td>@status('no')</td></tr>
             <tr><td class="pr-4 text-right">Works, through Rosetta 2</td><td>@status('rosetta')</td></tr>
