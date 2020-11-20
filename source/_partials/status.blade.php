@@ -26,7 +26,7 @@ $categories = [
         'Lambo' => 'yes',
         'oh-my-zsh' => 'yes',
         'Homebrew Redis' => 'no',
-        'Redis' => 'unsure',
+        'Redis' => 'no',
     ],
     'Common macOS tools used by Laravel developers' => [
         'iTerm' => 'yes',
