@@ -11,6 +11,6 @@ return [
                 "rosetta" => "bg-blue-500",
             ];
         ?>
-        <div class="<?php echo $colors[' . $expression . ']; ?> inline-block w-3 h-3 rounded mr-1"></div>';
+        <div class="<?php echo $colors[' . $expression . ']; ?> inline-block w-3 h-3 rounded mr-2"></div>';
     },
 ];
