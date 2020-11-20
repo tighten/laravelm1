@@ -95,4 +95,5 @@ released but not yet supported version.
         <li>... OK, yah it is there. Thought I checked but I guess I hadn't. Let's try! <code>redis-cli ping</code>... UGH. Same problem as with Homebrew. So there's something not working. Maybe debug-able? But not for me tonight.</li>
         <li><span>Thursday 7:26PM</span> Let's try... some downloadable apps! Sublime Text is up first.</li>
         <li>Downloading build 3211... works like a charm!</li>
+        <li>PHPStorm says they work ("Our IDEs work on Apple Silicon chips through Rosetta 2.") so I'm gonna move on to things that haven't made official statements yet.</li>
     </ul>
