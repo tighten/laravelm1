@@ -46,7 +46,7 @@ $categories = [
         'VS Code' => 'unsure',
         'PHPStorm' => [
             'link' => 'https://youtrack.jetbrains.com/issue/JBR-2526',
-            'status' => 'unsure',
+            'status' => 'yes',
         ],
         'TablePlus' => 'unsure',
         'That One App By the TablePlus people' => 'unsure',
