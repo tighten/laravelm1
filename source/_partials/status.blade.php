@@ -63,7 +63,10 @@ $categories = [
             'link' => 'https://weblog.rogueamoeba.com/2020/11/16/rogue-amoeba-software-updates-for-macos-11-big-sur-and-m1-chip-based-macs/',
         ],
         'Screenflow' => 'no',
-        'OBS' => 'unsure',
+        'OBS' => [
+            'status' => 'unsure',
+            'link' => 'https://obsproject.com/forum/threads/support-for-m1-cpu-gpu-either-as-an-intel-app-or-recompiled.133576/',
+        ],
         'Karabiner Elements' => 'yes',
         'Invoker' => 'unsure',
     ],
