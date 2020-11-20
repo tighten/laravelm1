@@ -23,10 +23,10 @@
         <h4>Legend:</h4>
 
         <table>
-            <tr><td class="pr-4">Haven't tested yet</td><td>@status('unsure')</td></tr>
-            <tr><td class="pr-4">Doesn't work as of testing</td><td>@status('no')</td></tr>
-            <tr><td class="pr-4">Works, through Rosetta 2</td><td>@status('rosetta')</td></tr>
-            <tr><td class="pr-4">Works natively</td><td>@status('yes')</td></tr>
+            <tr><td class="pr-4 text-right">Haven't tested yet</td><td>@status('unsure')</td></tr>
+            <tr><td class="pr-4 text-right">Doesn't work as of testing</td><td>@status('no')</td></tr>
+            <tr><td class="pr-4 text-right">Works, through Rosetta 2</td><td>@status('rosetta')</td></tr>
+            <tr><td class="pr-4 text-right">Works natively</td><td>@status('yes')</td></tr>
         </table>
     </div>
 
