@@ -24,7 +24,7 @@ $categories = [
             'link' => 'https://soffes.blog/homebrew-on-apple-silicon',
             'status' => 'yes',
         ],
-        'npm' => 'unsure',
+        'npm' => 'yes',
         'nvm' => 'unsure',
         'Lambo' => 'yes',
         'oh-my-zsh' => 'yes',
