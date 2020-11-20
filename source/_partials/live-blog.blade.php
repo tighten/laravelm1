@@ -97,5 +97,6 @@ released but not yet supported version.
         <li>Downloading build 3211... works like a charm!</li>
         <li>PHPStorm says they work ("Our IDEs work on Apple Silicon chips through Rosetta 2.") so I'm gonna move on to things that haven't made official statements yet.</li>
         <li>Let's try MySQL, PostgreSQL, and Memcached!</li>
-        <li>
+        <li>Oops, got distracted watching my brother's live show. TAKE TWO. MySQL.</li>
+        <li><span>Thursday 8:11PM</span>MySQL. <code>arch -x86_64 brew install mysql && brew services start mysql</code></li>
     </ul>

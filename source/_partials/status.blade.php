@@ -22,7 +22,7 @@ $categories = [
         'Composer' => 'yes',
         'Homebrew' => [
             'link' => 'https://soffes.blog/homebrew-on-apple-silicon',
-            'status' => 'yes',
+            'status' => 'rosetta',
         ],
         'npm' => 'yes',
         'Lambo' => 'yes',
@@ -46,7 +46,7 @@ $categories = [
         'VS Code' => 'unsure',
         'PHPStorm' => [
             'link' => 'https://youtrack.jetbrains.com/issue/JBR-2526',
-            'status' => 'yes',
+            'status' => 'rosetta',
         ],
         'TablePlus' => 'unsure',
         'That One App By the TablePlus people' => 'unsure',
@@ -76,9 +76,9 @@ $categories = [
     <ul>
     @foreach ($tools as $toolName => $partial)
         @if (is_array($partial))
-            <li><a href="{{ $partial['link'] }}">@include('_partials.' . $partial['status']){{ $toolName }}</a></li>
+            <li><a href="{{ $partial['link'] }}">@status($partial['status']){{ $toolName }}</a></li>
         @else
-            <li>@include('_partials.' . $partial){{ $toolName }}</li>
+            <li>@status($partial){{ $toolName }}</li>
         @endif
     @endforeach
     </ul>
