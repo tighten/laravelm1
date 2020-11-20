@@ -50,7 +50,7 @@ $categories = [
         ],
         'TablePlus' => 'yes',
         'That One App By the TablePlus people' => 'unsure',
-        'GitHub Desktop' => 'unsure',
+        'GitHub Desktop' => 'yes',
         'Slack' => 'unsure',
         'Discord' => 'yes',
         'Trello' => 'yes',
