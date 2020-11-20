@@ -48,7 +48,7 @@ $categories = [
             'link' => 'https://youtrack.jetbrains.com/issue/JBR-2526',
             'status' => 'rosetta',
         ],
-        'TablePlus' => 'unsure',
+        'TablePlus' => 'yes',
         'That One App By the TablePlus people' => 'unsure',
         'GitHub Desktop' => 'unsure',
         'Slack' => 'unsure',
