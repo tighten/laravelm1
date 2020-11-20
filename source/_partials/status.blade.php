@@ -64,7 +64,7 @@ $categories = [
         ],
         'Screenflow' => 'no',
         'OBS' => [
-            'status' => 'unsure',
+            'status' => 'no',
             'link' => 'https://obsproject.com/forum/threads/support-for-m1-cpu-gpu-either-as-an-intel-app-or-recompiled.133576/',
         ],
         'Karabiner Elements' => 'yes',
