@@ -4,13 +4,13 @@ return [
     'status' => function ($expression) {
         return '
         <?php
-            $colors = [
-                "unsure" => "bg-gray-400",
-                "no" => "bg-red-500",
-                "yes" => "bg-green-500",
-                "rosetta" => "bg-blue-500",
+            $emoji = [
+                "unsure" => "❓",
+                "no" => "🚫",
+                "yes" => "✅",
+                "rosetta" => "🛰",
             ];
         ?>
-        <div class="<?php echo $colors[' . $expression . ']; ?> inline-block w-3 h-3 rounded mr-2"></div>';
+        <div class="inline-block w-3 h-3 rounded mr-2"><?php echo $emoji[' . $expression . ']; ?></div>';
     },
 ];
