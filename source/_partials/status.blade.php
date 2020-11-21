@@ -65,11 +65,7 @@ $categories = [
             'link' => 'https://weblog.rogueamoeba.com/2020/11/16/rogue-amoeba-software-updates-for-macos-11-big-sur-and-m1-chip-based-macs/',
         ],
         'Screenflow' => 'no',
-        'OBS' => [
-            'status' => 'no',
-            'link' => 'https://obsproject.com/forum/threads/support-for-m1-cpu-gpu-either-as-an-intel-app-or-recompiled.133576/',
-            'details' => 'OBS runs, and captures video and audio, but can\'t capture your screen.',
-        ],
+        'OBS' => 'yes',
         'Karabiner Elements' => 'yes',
         'Invoker' => 'unsure',
     ],
