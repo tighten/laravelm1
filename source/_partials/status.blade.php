@@ -37,8 +37,8 @@ $categories = [
         ],
         'MySQL' => 'yes',
         'PostgreSQL' => 'yes',
-        'memcached' => 'unsure',
-        'PECL' => 'unsure',
+        'memcached' => 'yes',
+        'PECL' => 'yes',
     ],
     'Common macOS tools used by Laravel developers' => [
         'iTerm' => 'yes',
