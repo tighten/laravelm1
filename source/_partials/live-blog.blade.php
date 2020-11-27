@@ -120,7 +120,7 @@ released but not yet supported version.
         <li><span>Saturday 4:45PM</span>I had a sneaking suspicion OBS would work fine if I tried it again, so I did, and this time it successfully asked for permission to record my screen; once given, it worked. Woop!</li>
         <li id="blog-redis-2"><span>Friday 11:54AM</span>Several folks have suggested that <a href="https://github.com/Homebrew/homebrew-core/pull/57664#issuecomment-734179412">prefixing redis with sudo</a> works temporarily. Let's test it.</li>
         <li>Ok, <code>sudo arch -x86_64 redis-server</code> didn't work. I'll try reinstalling it. <code>arm brew reinstall redis -s</code> (<code>-s</code> builds from source)</li>
-        <li>Symlink failed. Force link: <code>arm brew link --overwrite redis</li>
+        <li>Symlink failed. Force link: <code>arm brew link --overwrite redis</code></li>
         <li><code>sudo arch -x86_64 redis-server</code> take two</li>
         <li>Works! So if you build from source and manually run <code>redis-server</code> when you need it, you can make  it work! I'll call this partial support, although I don't have an icon for that.</li>
     </ul>
