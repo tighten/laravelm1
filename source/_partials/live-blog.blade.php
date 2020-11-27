@@ -122,4 +122,5 @@ released but not yet supported version.
         <li>Ok, <code>sudo arch -x86_64 redis-server</code> didn't work. I'll try reinstalling it. <code>arm brew reinstall redis -s</code> (<code>-s</code> builds from source)</li>
         <li>Symlink failed. Force link: <code>arm brew link --overwrite redis</li>
         <li><code>sudo arch -x86_64 redis-server</code> take two</li>
+        <li>Works! So if you build from source and manually run <code>redis-server</code> when you need it, you can make  it work! I'll call this partial support, although I don't have an icon for that.</li>
     </ul>
