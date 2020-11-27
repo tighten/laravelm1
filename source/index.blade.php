@@ -10,6 +10,7 @@
 
             <p>Source here, in case you want to make PRs: <a href="https://github.com/tighten/laravelm1">github.com/tighten/laravelm1</a></p>
             <p>Another resource here: <a href="https://roaringapps.com/collections/list-of-apple-silicon-native-apps">https://roaringapps.com/collections/list-of-apple-silicon-native-apps</a></p>
+            <p>Another here, which has a very similar style to how I've done this but much nicer-looking and more comprehensive: <a href="https://isapplesiliconready.com/">https://isapplesiliconready.com/</a></p>
         </div>
     </div>
 
