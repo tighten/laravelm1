@@ -119,6 +119,7 @@ released but not yet supported version.
         <li><span>Friday 9:54PM</span>Checked php.ini and <code>extension="memcached.so"</code> is up at the top... <code>php -i</code> indicates memcached support is enabled and libmemcached is connected.. and in Tinker, if I run <code>$m = new Memcached</code>, while it throws an error because no servers are defined, the class exists. So is this a Valet issue? Maybe that old Sock problem where Valet is hitting the wrong PHP? Yep! <code>brew services stop php</code> but Valet is still running. What gives, Valet? Running <code>valet install</code> again, because that does a more full reboot.. HEY! There we go! Memcached working!</li>
         <li><span>Saturday 4:45PM</span>I had a sneaking suspicion OBS would work fine if I tried it again, so I did, and this time it successfully asked for permission to record my screen; once given, it worked. Woop!</li>
         <li><span>Friday 11:54AM</span>Several folks have suggested that <a href="https://github.com/Homebrew/homebrew-core/pull/57664#issuecomment-734179412">prefixing redis with sudo</a> works temporarily. Let's test it.</li>
-        <li>Ok, <code>sudo arch -x86_64 redis-server</code> didn't work. I'll try reinstalling it. <code>arm brew reinstall redis -s</code></li>
+        <li>Ok, <code>sudo arch -x86_64 redis-server</code> didn't work. I'll try reinstalling it. <code>arm brew reinstall redis -s</code> (<code>-s</code> builds from source)</li>
         <li>Symlink failed. Force link: <code>arm brew link --overwrite redis</li>
+        <li><code>sudo arch -x86_64 redis-server</code> take two</li>
     </ul>
