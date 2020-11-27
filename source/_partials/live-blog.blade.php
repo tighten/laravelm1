@@ -120,5 +120,5 @@ released but not yet supported version.
         <li><span>Saturday 4:45PM</span>I had a sneaking suspicion OBS would work fine if I tried it again, so I did, and this time it successfully asked for permission to record my screen; once given, it worked. Woop!</li>
         <li><span>Friday 11:54AM</span>Several folks have suggested that <a href="https://github.com/Homebrew/homebrew-core/pull/57664#issuecomment-734179412">prefixing redis with sudo</a> works temporarily. Let's test it.</li>
         <li>Ok, <code>sudo arch -x86_64 redis-server</code> didn't work. I'll try reinstalling it. <code>arm brew reinstall redis -s</code></li>
-        <li>Symlink failed. have to pass <code>--overwrite</code>.. except it says that's an invalid param when I try it?</li>
+        <li>Symlink failed. Force link: <code>arm brew link --overwrite redis</li>
     </ul>
