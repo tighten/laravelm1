@@ -30,6 +30,7 @@ $categories = [
         'Homebrew Redis' => [
             'link' => '#blog-redis',
             'status' => 'no',
+            'details' => 'You can *sort of* make it work: <code>brew reinstall redis -s</code>, then run <code>sudo redis-server</code> every time you need Redis.'
         ],
         'Redis' => [
             'link' => '#blog-redis',
