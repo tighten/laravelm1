@@ -39,6 +39,8 @@ $categories = [
         'PostgreSQL' => 'yes',
         'memcached' => 'yes',
         'PECL' => 'yes',
+        'pecl install mongodb' => 'unsure',
+        'pecl install redis' => 'unsure',
         'Vagrant' => 'unsure',
     ],
     'Common macOS tools used by Laravel developers' => [
