@@ -54,7 +54,7 @@ $categories = [
             'status' => 'rosetta',
         ],
         'TablePlus' => 'yes',
-        'That One App By the TablePlus people' => 'unsure',
+        'DBngin' => 'unsure',
         'GitHub Desktop' => 'yes',
         'Slack' => 'yes',
         'Discord' => 'yes',
