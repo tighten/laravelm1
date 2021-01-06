@@ -49,10 +49,7 @@ $categories = [
         'Tinkerwell' => 'yes',
         'Sublime Text' => 'yes',
         'VS Code' => 'yes',
-        'PHPStorm' => [
-            'link' => 'https://youtrack.jetbrains.com/issue/JBR-2526',
-            'status' => 'rosetta',
-        ],
+        'PHPStorm' => 'yes',
         'TablePlus' => 'yes',
         'DBngin' => 'unsure',
         'GitHub Desktop' => 'yes',
