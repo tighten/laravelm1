@@ -27,14 +27,8 @@ $categories = [
         'npm' => 'yes',
         'Lambo' => 'yes',
         'oh-my-zsh' => 'yes',
-        'Homebrew Redis' => [
-            'link' => '#blog-redis-2',
-            'status' => 'yes',
-        ],
-        'Redis' => [
-            'link' => '#blog-redis',
-            'status' => 'yes',
-        ],
+        'Homebrew Redis' => 'yes',
+        'Redis' => 'yes',
         'MySQL' => 'yes',
         'PostgreSQL' => 'yes',
         'memcached' => 'yes',
