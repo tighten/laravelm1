@@ -29,19 +29,18 @@ $categories = [
         'oh-my-zsh' => 'yes',
         'Homebrew Redis' => [
             'link' => '#blog-redis-2',
-            'status' => 'no',
-            'details' => 'You can *sort of* make it work: `brew reinstall redis -s`, then run `sudo redis-server` every time you need Redis.'
+            'status' => 'yes',
         ],
         'Redis' => [
             'link' => '#blog-redis',
-            'status' => 'no',
+            'status' => 'yes',
         ],
         'MySQL' => 'yes',
         'PostgreSQL' => 'yes',
         'memcached' => 'yes',
         'PECL' => 'yes',
         'pecl install mongodb' => 'unsure',
-        'pecl install redis' => 'unsure',
+        'pecl install redis' => 'yes',
         'Vagrant' => 'unsure',
     ],
     'Common macOS tools used by Laravel developers' => [
