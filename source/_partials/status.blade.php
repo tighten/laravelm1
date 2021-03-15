@@ -31,7 +31,7 @@ $categories = [
         'memcached' => 'yes',
         'PECL' => 'yes',
         'pecl install mongodb' => 'unsure',
-        'pecl install redis' => 'yes',
+        'pecl install redis' => 'no',
         'Vagrant' => 'unsure',
     ],
     'Common macOS tools used by Laravel developers' => [
@@ -76,9 +76,9 @@ $categories = [
             <a href="{{ $partial['link'] }}">@status($partial['status']){{ $toolName }}</a>
             @if (isset($partial['details']))
             <div class="inline-block" x-data="{ open: false }">
-                <a @click="open = true" class="cursor-pointer inline-block px-3 rounded bg-blue-500 text-white hover:text-white hover:bg-blue-700">i</a>
+                <a @click="open = true" class="inline-block px-3 text-white bg-blue-500 rounded cursor-pointer hover:text-white hover:bg-blue-700">i</a>
                 <div
-                    class="absolute bg-white border border-gray-500 p-4 rounded -ml-1 -mt-2"
+                    class="absolute p-4 -mt-2 -ml-1 bg-white border border-gray-500 rounded"
                     x-show="open"
                     x-cloak
                     @click.away="open = false"
