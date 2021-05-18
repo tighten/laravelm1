@@ -51,8 +51,8 @@ $categories = [
         'Bartender' => 'yes',
         'Breaktime' => 'yes',
         'Rogue Amoeba tools' => [
-            'status' => 'no',
-            'link' => 'https://weblog.rogueamoeba.com/2020/11/16/rogue-amoeba-software-updates-for-macos-11-big-sur-and-m1-chip-based-macs/',
+            'status' => 'yes',
+            'link' => 'https://weblog.rogueamoeba.com/2020/12/17/all-rogue-amoeba-apps-now-have-official-support-for-the-new-m1-macs/',
         ],
         'Screenflow' => 'no',
         'OBS' => 'yes',
